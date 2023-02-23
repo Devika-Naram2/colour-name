@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    print colored('hello', 'red'), colored('world', 'green')
-    return "Hello DTI team. This is REDHAT demo"
+    print 
+    return colored('hello', 'red'), colored('world', 'green')
 
 
 if __name__ == '__main__':
