@@ -7,8 +7,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "                        Hello DTI team. This is REDHAT demo"
-print colored('hello', 'red'), colored('world', 'green')
+    print colored('hello', 'red'), colored('world', 'green')
+    return "Hello DTI team. This is REDHAT demo"
+
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
